@@ -14,7 +14,7 @@
     --headline-font: "Brittany Signature", cursive;
     --body-font: "Montserrat", sans-serif;
     --horizontal-shift: 6px;
-    --section-padding-top: 60px;
+    --section-padding-top: 90px;
 }
 
 * {
@@ -109,11 +109,11 @@ header {
 nav {
     overflow: hidden;
     background: var(--white);
-    height: 60px;
+    height: 90px;
 }
 
 .navexpanded {
-    height: 170px;
+    height: 280px;
 }
 
 
@@ -125,7 +125,7 @@ nav ul {
 }
 
 nav ul>li {
-    margin-top: 14px;
+    margin-top: 25px;
     flex-basis: 100%;
 }
 
@@ -300,11 +300,11 @@ section>* {
 /* Small devices (i.e. tablets in portrait) */
 @media (min-width: 600px) {
     nav {
-        height: 60px;
+        height: 90px;
     }
 
     .navexpanded {
-        height: 60px;
+        height: 90px;
     }
 
     .navexpanded #close-icon {
