@@ -275,8 +275,8 @@ section>* {
 
 /* Styling to invert the colour scheme. Add this class to a section */
 .inverted-colours {
-    background: var(--black);
-    color: var(--white);
+    background: #9baadf;
+    color: var(--black);
 }
 
 .inverted-colours a {
