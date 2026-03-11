@@ -289,12 +289,12 @@ section>* {
 
 .inverted-colours .btn {
     color: var(--black);
-    background: var(--white);
+    background: var(--accent-colour);
 }
 
 .inverted-colours .btn:hover {
     color: var(--black);
-    background: var(--accent-colour);
+    background: var(--white);
 }
 
 /* Small devices (i.e. tablets in portrait) */
