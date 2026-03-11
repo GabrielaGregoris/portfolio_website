@@ -280,7 +280,7 @@ section>* {
 }
 
 .inverted-colours a {
-    color: var(--white);
+    color: var(--black);
 }
 
 .inverted-colours a:visited {
@@ -293,7 +293,7 @@ section>* {
 }
 
 .inverted-colours .btn:hover {
-    color: var(--white);
+    color: var(--black);
     background: var(--accent-colour);
 }
 
