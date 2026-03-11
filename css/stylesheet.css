@@ -63,15 +63,15 @@ p {
 a {
     font-size: calc(16px + (20 - 16) * (100vw - 400px) / (1800 - 400));
     text-decoration: none;
-    color: var(--black);
+    color: var(--deep-navy);
 }
 
 a:visited {
-    color: var(--black);
+    color: var(--deep-navy);
 }
 
 .btn {
-    background-color: var(--black);
+    background-color: var(--deep-navy);
     border: none;
     color: var(--white);
     padding: 15px 32px;
@@ -84,7 +84,7 @@ a:visited {
 
 .btn:hover {
     background-color: var(--accent-colour);
-    color: var(--black);
+    color: var(--deep-navy);
     padding-left: calc(32px + var(--horizontal-shift));
 }
 
@@ -93,7 +93,7 @@ a:visited {
 }
 
 .btn:hover:visited {
-    color: var(--black);
+    color: var(--deep-navy);
 }
 
 img {
@@ -132,7 +132,7 @@ nav ul>li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--black);
+    color: var(--deep-navy);
     margin: 20px;
 }
 
@@ -277,24 +277,24 @@ section>* {
 /* Styling to invert the colour scheme. Add this class to a section */
 .inverted-colours {
     background: #9baadf;
-    color: var(--black);
+    color: var(--deep-navy);
 }
 
 .inverted-colours a {
-    color: var(--black);
+    color: var(--deep-navy);
 }
 
 .inverted-colours a:visited {
-    color: var(--black);
+    color: var(--deep-navy);
 }
 
 .inverted-colours .btn {
-    color: var(--black);
+    color: var(--deep-navy);
     background: var(--white);
 }
 
 .inverted-colours .btn:hover {
-    color: var(--black);
+    color: var(--deep-navy);
     background: var(--accent-colour);
 }
 
