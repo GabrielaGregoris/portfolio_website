@@ -293,7 +293,7 @@ section>* {
 }
 
 .inverted-colours .btn:hover {
-    color: var(--black);
+    color: var(--white);
     background: var(--accent-colour);
 }
 
