@@ -227,7 +227,32 @@ section>* {
 /* Styling for the Introduction */
 #introduction {
     align-content: center;
+    color: var(--deep-navy);
+}
 
+#introduction .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+#introduction .hero-title {
+    font-size: calc(40px + (64 - 40) * (100vw - 400px) / (1800 - 400));
+    margin-bottom: 0;
+}
+
+#introduction .hero-subtitle {
+    font-size: calc(24px + (36 - 24) * (100vw - 400px) / (1800 - 400));
+    font-weight: 400; /* Keeping it editorial and clean */
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+
+#introduction .hero-description {
+    font-size: 20px;
+    max-width: 65ch; /* Limit width for readability */
+    margin-bottom: 1rem;
+    line-height: 1.6;
 }
 
 #portfolio a:hover h3,
