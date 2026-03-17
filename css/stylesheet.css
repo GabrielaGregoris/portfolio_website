@@ -266,6 +266,10 @@ section>* {
     margin: 0 auto 2rem auto;
 }
 
+.treasure-about img {
+    max-width: 280px !important;
+}
+
 #about ul {
     list-style: none;
 }
